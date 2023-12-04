@@ -11,9 +11,8 @@
 			</div>
 		</div>
 
-    <ProductDisplay >
+    <ProductDisplay>
     </ProductDisplay>
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 </template>
 
 <script>
@@ -57,7 +56,6 @@ export default {
 		margin-top: 1rem;
 }
 
-/* bouncing cirle with keyframe */
 .circle{
     width: 1rem;
     height: 1rem;
