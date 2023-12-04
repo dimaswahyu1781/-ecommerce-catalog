@@ -1,13 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Lato:400,700'); */
 /*'Lato', sans-serif;
-
-$white: #F5F5F5;
-#E0C9CB: #E0C9CB;
-$tan: #C3A1A0;
-$pink: #D9AAB7;
- #BA7E7E: #BA7E7E;
-$dark: #4E4E4E; */
-
 /* center container in the middle */
 html {
   display: grid;
@@ -34,11 +26,8 @@ html {
   width: 1200px;
   height: 600px;
   background: white;
-/* shadow */
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-  /* background:#F5F5F5; */
-  /* box-shadow: 5px 5px 15px rgba( #BA7E7E, .5); */
-  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 12px;
 }
 
 .hero-image {
@@ -136,7 +125,6 @@ img {
   letter-spacing: 0;
   margin-bottom: 10px;
   color: #4E4E4E;
-  /* font-size: .7em; */
   font-size: 1em;
   line-height: 2em;
   margin-right: 25px;
@@ -145,21 +133,21 @@ img {
 }
 
 /* button {
-  background: #720060;
-  padding: 10px;
+  background:#84136F;
+  padding: 5px;
   display: inline-block;
-  outline: 0;
-  border: 0;
-  margin: -1px;
-  border-radius: 2px;
+  outline: 2;
+  border: 2;
+  margin: -3px;
+  border-radius: 1px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color:#F5F5F5;
   cursor: pointer;
 } */
 button {
-    background-color: #720060; /* Green */
-    border: 2px solid #720060;;
+    background-color: #84136F;
+    border: 2px solid #84136F;;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -172,9 +160,9 @@ button {
 }
 
 button-next {
-    background-color: none; /* Green */
-    border: 2px solid #720060;;
-    color: #720060;
+    background-color: none;
+    border: 2px solid #84136F;
+    color: #84136F;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -185,7 +173,7 @@ button-next {
 }
 
 button-nodata {
-    background-color: none; /* Green */
+    background-color: none;
     border: 2px solid#1E1E1E;;
     width: 400px;
     color:#1E1E1E;
